@@ -2,5 +2,9 @@
   "creativemodetab.lengdustrialcraft.lengdustrial_tab": "Lengdustrial Craft",
   "item.lengdustrialcraft.imbalanced_sword": "Imbalanced Sword",
   "item.lengdustrialcraft.lengdustrial_block": "Lengdustrial Block",
-  "block.lengdustrialcraft.lengdustrial_block": "Lengdustrial Block"
+  "item.lengdustrialcraft.tin_ore": "Tin Ore",
+  "item.lengdustrialcraft.raw_tin": "Raw Tin",
+  "item.lengdustrialcraft.tin_ingot": "Tin Ingot",
+  "block.lengdustrialcraft.lengdustrial_block": "Lengdustrial Block",
+  "block.lengdustrialcraft.tin_ore": "Tin Ore"
 }

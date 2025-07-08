@@ -2,6 +2,7 @@ package dev.lengway.mods.lengdustrialcraft.registers;
 
 import dev.lengway.mods.lengdustrialcraft.Lengdustrialcraft;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,9 +21,13 @@ public class ModCreativeModeTabs {
                     () -> CreativeModeTab.builder()
                             .withTabsBefore(CreativeModeTabs.COMBAT)
                             .icon(() -> ModItems.lengdustrial_block_item.get().getDefaultInstance())
+                            .title(Component.translatable("creativemodetab.lengdustrialcraft.lengdustrial_tab"))
                             .displayItems((parameters, output) -> {
-                                    output.accept(ModItems.imbalanced_sword.get());
-                                    output.accept(ModItems.lengdustrial_block_item.get());
+                                output.accept(ModItems.imbalanced_sword.get());
+                                output.accept(ModItems.lengdustrial_block_item.get());
+                                output.accept(ModItems.tin_ore.get());
+                                output.accept(ModItems.raw_tin.get());
+                                output.accept(ModItems.tin_ingot.get());
                             })
                             .build());
 
